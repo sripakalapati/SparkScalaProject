@@ -13,7 +13,8 @@ object Assignment2 {
     def multiply(x:Int,y:Int):Int={
       var tmp: Int = 0
       tmp = x*y
-      return tmp
+//      return tmp
+      tmp
     }
     //    tmp = 100
     println("multiplication of two numbers:" + multiply(10,20))
