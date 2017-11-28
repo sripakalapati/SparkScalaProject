@@ -17,6 +17,6 @@ object Assignment2 {
       tmp
     }
     //    tmp = 100
-    println("multiplication of two numbers:" + multiply(10,20))
+    println("multiple of two numbers:" + multiply(10,20))
   }
 }
