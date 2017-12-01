@@ -12,7 +12,7 @@ object RunRationalNumber {
     println("First Rational Number:  "+firstnumber)
     println("Second Rational Number: "+secondnumber)
     println("Addition of two Rational Numbers: "+resultnumber)
-    println("Substraction of two Rational Numbers: "+subofnumbers)
+    println("Subtraction of two Rational Numbers: "+subofnumbers)
     println("Multiplication of two Rational Numbers: "+mulofnumbers)
     println("Division of two Rational Numbers: "+divofnumbers)
 
