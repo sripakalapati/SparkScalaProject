@@ -3,6 +3,7 @@ package sparkscalapackage
 import scala.io._
 
 object CaseClassAssignment {
+
   case class Employee(id:Int,
                       name:String,
                       sal:Int,
