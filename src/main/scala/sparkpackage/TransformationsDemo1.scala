@@ -51,7 +51,6 @@ object TransformationsDemo1 {
     val helpdeskData = helpdeskFile.filter(row => row != helpDeskHeader)
 //    Assign schema to rows
     val helpdeskRows = helpdeskData.map(getRows)
-
 //     Generate critical priority tickets
 //    println(helpdeskRows.filter(row => row.severity=="4 - Critical" & row.priority=="3 - High").count())
      val criticalPriorityRows = helpdeskRows.filter(row => row.severity=="4 - Critical" & row.priority=="3 - High")
@@ -70,6 +69,7 @@ object TransformationsDemo1 {
 //     pivotData.collect().foreach(println)
      val arg = "ticketType"
      this.getPivotData(helpdeskRows,arg)
+   
   }
 
 }
