@@ -4,7 +4,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 import sparkpackage.TransformationsDemo1.getRows
 
-object rddDemo1 {
+object RddDemo1 {
 def main(args:Array[String]): Unit ={
   //    Set log information to error
   Logger.getLogger("org").setLevel(Level.ERROR)
